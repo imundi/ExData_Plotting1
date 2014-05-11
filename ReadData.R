@@ -10,8 +10,6 @@ print("Unzipping data file...")
 unzip(file, exdir=tmpdir)
 hhpowerdatafile <- list.files(tmpdir, pattern="household_power_consumption.txt")
 print("Unzip complete.")
-#hhpowerdatafile <- list.files("C:/Users/Imran/SkyDrive/Learning/Coursera/Exploratory Data Analysis/projects",
-#                              pattern="household_power_consumption.txt")
 
 # open file to read data
 # -----------------
